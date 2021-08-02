@@ -1,9 +1,13 @@
 Reset Postgresql sequences
 ==========================
 
-An easy way to reset postgresql indexes in a database
+An easy way to reset all postgresql indexes in a database.
 
-Only tables with integer as a primary key are supported
+Script goes through all the tables in the specified database and resets them.
+
+Found this useful after restoring from an sql file and couldn't insert data because the indexes.
+
+Only tables with integer as a primary key are supported.
 
 # Setting up
 
